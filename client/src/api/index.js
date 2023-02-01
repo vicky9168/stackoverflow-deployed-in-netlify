@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API=axios.create({baseURL:'https://stack-overflow.cyclic.app/'})
+const API=axios.create({baseURL:'https://stackoverflow-final.onrender.com/'})
 
 API.interceptors.request.use((req)=>{
     if(localStorage.getItem('Profile')){
